@@ -1,11 +1,11 @@
 {
   "expo": {
     "name": "Instagram-Clone",
-    "slug": "Instagram-Clone",
+    "slug": "instagram-clone",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
+    "scheme": "instagram-clone",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
