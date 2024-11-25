@@ -19,6 +19,16 @@ module.exports = {
           100: "#E0F1FF",        //For links
 
         }
+      },
+      fontFamily: {
+        rblack: ["Roboto-Black", "sans-serif"],
+        rbold: ["Roboto-Bold", "sans-serif"],
+        ritalic: ["Roboto-Italic", "sans-serif"],
+        rlight: ["Roboto-Light", "sans-serif"],    
+        rmedium: ["Roboto-Medium", "sans-serif"],
+        rregular: ["Roboto-Regular", "sans-serif"],
+        rthin: ["Roboto-Thin", "sans-serif"],
+
       }
     },
   },
