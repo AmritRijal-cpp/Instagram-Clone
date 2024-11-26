@@ -14,17 +14,5 @@ const App = () => {
   )
 }
 
-const styles = StyleSheet.create({
-  container: {
-    height: '100%',
-    backgroundColor: "#afee",
-    alignItems: 'center',
-    justifyContent: 'center'
-  },
-  text: {
-    alignItems: 'center',
-    justifyContent: 'center'
-  }
-})
 
 export default App
