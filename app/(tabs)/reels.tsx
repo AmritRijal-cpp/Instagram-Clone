@@ -1,12 +1,12 @@
 import { View, Text } from 'react-native'
 import React from 'react'
 
-const video = () => {
-  return (
+const Reels = () => {
+return (
     <View>
-      <Text>video</Text>
+      <Text></Text>
     </View>
   )
 }
 
-export default video
+export default Reels
