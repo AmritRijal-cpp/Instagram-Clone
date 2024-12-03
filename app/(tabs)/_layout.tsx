@@ -5,6 +5,7 @@ import { IconSymbol } from '@/components/ui/IconSymbol';
 import TabBarBackground from '@/components/ui/TabBarBackground';
 import { Colors } from '@/constants/Colors';
 import { useColorScheme } from '@/hooks/useColorScheme';
+import icons from '../../constants/icons';
 
 export default function TabLayout() {
   const colorScheme = useColorScheme();
@@ -32,21 +33,36 @@ export default function TabLayout() {
       />
       <Tabs.Screen
         name='create'
-        options={{ 
+        options={{
           title: 'Create',
+          tabBarIcon: () => {
+        <TabIcon
+          icon={icons.create}
+        />
+      }
          }}
       />
       <Tabs.Screen
         name="video"
-        options={{ 
+        options={{
           title: 'Video',
+          tabBarIcon: () => {
+        <TabIcon
+          icon={icons.reel}
+        />
+      }
          }}
       />
-      <Tabs.Screen 
+      <Tabs.Screen
         name="profile"
-        options={{ 
-          title: 'Profile'
-         }}
+        options={{
+          title: 'Profile',
+          tabBarIcon: () => {
+            <TabIcon
+              icon={icons.profile}
+            />
+          }
+        }}
       />
     </Tabs>
   );
