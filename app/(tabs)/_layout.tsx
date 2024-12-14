@@ -23,6 +23,7 @@ export default function TabLayout() {
         <Image
           source={icon}
           resizeMode='contain'
+          className='w-5 h-5'
         />
       </View>
     );
@@ -79,14 +80,14 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name="video"
+        name="reels"
         options={{
-          title: 'Video',
+          title: 'Reels',
           tabBarIcon: ({ color, focused }) => (
             <TabIcon
               icon={icons.reel}
               color={color}
-              name='Video'
+              name='Reels'
               focused={focused}
             />
           )
