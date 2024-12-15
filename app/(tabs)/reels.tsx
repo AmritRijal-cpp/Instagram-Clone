@@ -4,7 +4,7 @@ import React from 'react'
 const Reels = () => {
 return (
     <View>
-      <Text></Text>
+      <Text> Reel Page</Text>
     </View>
   )
 }

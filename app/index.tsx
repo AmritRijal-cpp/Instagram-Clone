@@ -10,7 +10,7 @@ const App = () => {
       <Text className="text-secondary font-rblack text-lg text-tint-primary">
         Custom Tailwind Styles
       </Text>
-      <Link href="/create">To Home</Link>
+      <Link href="/home">To Home</Link>
       <StatusBar style='light' backgroundColor='#000000' />
     </SafeAreaView>
   )

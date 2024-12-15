@@ -4,9 +4,9 @@ import { SafeAreaView } from 'react-native-safe-area-context'
 
 const CustomButton = () => {
   return (
-    <SafeAreaView>
+    <View>
       <Text>Custom Button</Text>
-    </SafeAreaView>
+    </View>
   )
 }
 
